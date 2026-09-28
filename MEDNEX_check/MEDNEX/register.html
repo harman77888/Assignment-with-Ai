@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Register | MEDNEX
+  </title>
+  <meta content="MEDNEX digital healthcare and patient care platform demo." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700;800;900&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="css/global.css" rel="stylesheet"/>
+  <link href="css/components.css" rel="stylesheet"/>
+  <link href="css/public.css" rel="stylesheet"/>
+  <link href="css/responsive.css" rel="stylesheet"/>
+ </head>
+ <body data-page="register">
+  <main class="auth-shell">
+   <div class="auth-visual">
+    <div>
+     <div class="eyebrow" style="color:#8ad6d4">
+      JOIN MEDNEX
+     </div>
+     <h1 style="font-size:48px">
+      A simpler digital care experience.
+     </h1>
+     <p style="color:#c6d6e2;max-width:480px">
+      Create a fictional demo account for the patient or doctor portal.
+     </p>
+    </div>
+   </div>
+   <div class="auth-panel">
+    <div class="auth-box">
+     <a class="brand" href="index.html">
+      <span class="brand-mark">
+      </span>
+      MEDNEX
+     </a>
+     <div style="height:30px">
+     </div>
+     <div class="eyebrow">
+      CREATE ACCOUNT
+     </div>
+     <h2>
+      Register
+     </h2>
+     <form class="form-grid" id="registerForm">
+      <div class="field">
+       <label>
+        Name
+       </label>
+       <input required=""/>
+      </div>
+      <div class="field">
+       <label>
+        Email
+       </label>
+       <input required="" type="email"/>
+      </div>
+      <div class="field">
+       <label>
+        Phone
+       </label>
+       <input required=""/>
+      </div>
+      <div class="field">
+       <label>
+        Account type
+       </label>
+       <select>
+        <option>
+         Patient
+        </option>
+        <option>
+         Doctor
+        </option>
+       </select>
+      </div>
+      <div class="field">
+       <label>
+        Password
+       </label>
+       <input id="regPassword" required="" type="password"/>
+      </div>
+      <div class="field">
+       <label>
+        Confirm password
+       </label>
+       <input id="regConfirm" required="" type="password"/>
+      </div>
+      <div style="grid-column:1/-1">
+       <button class="btn btn-primary" style="width:100%">
+        Create demo account
+       </button>
+      </div>
+     </form>
+     <p class="doctor-meta" style="margin-top:18px">
+      <a href="login.html" style="color:var(--blue);font-weight:800">
+       Back to login
+      </a>
+     </p>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
+

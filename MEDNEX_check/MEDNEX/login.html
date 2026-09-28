@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Portal Login | MEDNEX
+  </title>
+  <meta content="MEDNEX digital healthcare and patient care platform demo." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700;800;900&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="css/global.css" rel="stylesheet"/>
+  <link href="css/components.css" rel="stylesheet"/>
+  <link href="css/public.css" rel="stylesheet"/>
+  <link href="css/responsive.css" rel="stylesheet"/>
+ </head>
+ <body data-page="login">
+  <main class="auth-shell">
+   <div class="auth-visual">
+    <div>
+     <div class="eyebrow" style="color:#8ad6d4">
+      MEDNEX DIGITAL CARE
+     </div>
+     <h1 style="font-size:48px">
+      Your care journey, connected.
+     </h1>
+     <p style="color:#c6d6e2;max-width:480px">
+      Access the patient, doctor or administration demonstration portals.
+     </p>
+    </div>
+   </div>
+   <div class="auth-panel">
+    <div class="auth-box">
+     <a class="brand" href="index.html">
+      <span class="brand-mark">
+      </span>
+      MEDNEX
+     </a>
+     <div style="height:30px">
+     </div>
+     <div class="eyebrow">
+      PORTAL ACCESS
+     </div>
+     <h2>
+      Sign in
+     </h2>
+     <p class="muted">
+      Frontend demo authentication using localStorage.
+     </p>
+     <form class="grid" id="loginForm">
+      <div class="field">
+       <label>
+        Email
+       </label>
+       <input required="" type="email" value="demo@mednex.example"/>
+      </div>
+      <div class="field">
+       <label>
+        Password
+       </label>
+       <input required="" type="password" value="demo123"/>
+      </div>
+      <div class="field">
+       <label>
+        Demo account
+       </label>
+       <select id="loginRole">
+        <option value="patient">
+         Patient
+        </option>
+        <option value="doctor">
+         Doctor
+        </option>
+        <option value="admin">
+         Admin
+        </option>
+       </select>
+      </div>
+      <label style="font-size:13px">
+       <input type="checkbox"/>
+       Remember Me
+      </label>
+      <button class="btn btn-primary">
+       Sign in
+      </button>
+     </form>
+     <div class="demo-box" style="margin-top:18px">
+      <strong>
+       Demo access
+      </strong>
+      <br/>
+      Choose an account type above. No real authentication is performed.
+     </div>
+     <p class="doctor-meta" style="margin-top:18px">
+      New to MEDNEX?
+      <a href="register.html" style="color:var(--blue);font-weight:800">
+       Create a demo account
+      </a>
+     </p>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Settings | MEDNEX
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700;800;900&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="../css/global.css" rel="stylesheet"/>
+  <link href="../css/components.css" rel="stylesheet"/>
+  <link href="../css/dashboard.css" rel="stylesheet"/>
+  <link href="../css/responsive.css" rel="stylesheet"/>
+ </head>
+ <body data-page="doctor-settings" data-role="doctor">
+  <div class="app-shell">
+   <aside class="sidebar">
+   </aside>
+   <main class="app-main">
+    <header class="app-top">
+     <div style="display:flex;gap:10px;align-items:center">
+      <button class="icon-btn mobile-menu" data-nav-toggle="">
+       &equiv;
+      </button>
+      <div class="app-title">
+       Settings
+      </div>
+     </div>
+     <div class="app-user">
+      <span class="doctor-meta">
+       Demo workspace
+      </span>
+      <span class="avatar" style="display:grid;place-items:center;font-size:12px;font-weight:900;color:var(--navy)">
+       MN
+      </span>
+     </div>
+    </header>
+    <section class="app-content">
+     <div class="dash-head" id="dashHead">
+     </div>
+     <div id="dashContent">
+     </div>
+    </section>
+   </main>
+  </div>
+  <div class="modal-backdrop" id="globalModal">
+   <div class="modal">
+    <div class="modal-head">
+     <strong class="modal-title">
+      Details
+     </strong>
+     <button class="icon-btn" onclick="closeModal()">
+      &times;
+     </button>
+    </div>
+    <div class="modal-body">
+    </div>
+   </div>
+  </div>
+  <script src="../js/data.js">
+  </script>
+  <script src="../js/storage.js">
+  </script>
+  <script src="../js/main.js">
+  </script>
+  <script src="../js/dashboard.js">
+  </script>
+ </body>
+</html>
+
